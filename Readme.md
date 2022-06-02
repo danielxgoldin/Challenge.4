@@ -1,0 +1,1 @@
+Today we will make a Quiz that uses java script, html and style.css to show a high score and to run threw the quiz.

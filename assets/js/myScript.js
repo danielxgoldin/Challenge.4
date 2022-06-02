@@ -37,11 +37,11 @@ const quizData = [
 
 const quiz= document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
-const questionEl = document.getElementById('question')
-const a_text = document.getElementById('a_text')
-const b_text = document.getElementById('b_text')
-const c_text = document.getElementById('c_text')
-const d_text = document.getElementById('d_text')
+const questionEl = document.getElementById('questions')
+const a_text = document.getElementById('a_answer')
+const b_text = document.getElementById('b_answer')
+const c_text = document.getElementById('c_answer')
+const d_text = document.getElementById('d_answer')
 const submitBtn = document.getElementById('submit')
 
 
@@ -57,10 +57,10 @@ function loadQuiz() {
     const currentQuizData = quizData[currentQuiz]
 
     questionEl.innerText = currentQuizData.question
-    a_text.innerText = currentQuizData.a
-    b_text.innerText = currentQuizData.b
-    c_text.innerText = currentQuizData.c
-    d_text.innerText = currentQuizData.d
+    a_answer.innerText = currentQuizData.a
+    b_answer.innerText = currentQuizData.b
+    c_answer.innerText = currentQuizData.c
+    d_answer.innerText = currentQuizData.d
 }
 
 function deselectAnswers() {
