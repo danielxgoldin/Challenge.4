@@ -1,14 +1,13 @@
                                      A Good Quiz 
-
+                               
 
 Project Description:
 This project is a timed quiz that you have 60 questions to complete. It will then relay a message at the end that will let you know if you passed or failed. 
 
-
-4. How to Install and Run the Project:
+How to Install and Run the Project:
 There is no install needed for this project. It can be used by accessing the browser version. You may access this project on any device, anywhere, as long as you have the link. 
 
-5. How to Use the Project
+How to Use the Project
 You will wanna use this project to tone your coding skills!! Also, to have fun!!
 
 
