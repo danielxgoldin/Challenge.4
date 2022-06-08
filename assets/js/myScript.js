@@ -5,7 +5,7 @@ const quizData = [
         b: "Booleans",
         c: "Alerts",
         d: "Numbers",
-        correct: "b",
+        correct: "c",
     },
     {
         question: "The Condition In an If/Else statement is Inclosed in?",
@@ -16,20 +16,20 @@ const quizData = [
         correct: "c",
     },
     {
-        question: "",
-        a: "",
-        b: "",
-        c: "",
-        d: "",
-        correct: "",
+        question: "Arrays In JavaScript can be Used to Store?",
+        a: "Numbers and Strings",
+        b: "Other Arrays",
+        c: "Booleans",
+        d: "All Of the Above",
+        correct: "d",
     },
     {
-        question: "",
-        a: "",
-        b: "",
-        c: "",
-        d: "",
-        correct: "",
+        question: "A Very Useful Tool Used in Development and Debugging for Printing Content to the Debugger is?",
+        a: "JavaScript",
+        b: "For loops",
+        c: "terminal/bash",
+        d: "Consol.log",
+        correct: "c",
     },
 
 
@@ -98,3 +98,14 @@ submitBtn.addEventListener('click', () => {
        }
     }
 })
+var count = 60;
+var interval = setInterval(function(){
+  document.getElementById('count').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('count').innerHTML='Done';
+    // or...
+    alert("You're out of time!");
+  }
+}, 1000);
